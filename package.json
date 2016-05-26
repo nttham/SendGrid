@@ -1,0 +1,18 @@
+{
+    "name": "otp",
+    "version": "1.0.0",
+    "description": "This will generate and validate OTP",
+    "main": "otpserver.js",
+    "scripts": {
+        "test": "echo \\\"Error: no test specified\\\" && exit 1",
+        "start": "node otpserver.js"
+    },
+    "author": "Neethu",
+    "license": "ISC",
+    "dependencies": {
+        "sendgrid": "~3.8.8",
+        "express": "*",
+        "bodyParser": "*"
+    }
+
+}
