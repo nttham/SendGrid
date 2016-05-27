@@ -3,6 +3,21 @@ This module is used to send mails using sendgrid api
 
 ## Main Function
     sendMail()
+## Sample
+
+```javascript
+
+sendgrid.sendMail({
+    "accountSID": "r8skU2912a",
+    "authToken":"BPRV4rL9N7jM9272",
+    "toRecipient": 'example@example.com',
+    "fromMail": 'other@example.com',
+    "subject": Hello World'
+    "text": 'My first email !!!.'
+    }, function(err, json) {
+  if (err) { return console.error(err); }
+  console.log(json);
+});
     User has to provide the Account SSID and the auth Token which is needed to connect with 
     the send grid. 
 
