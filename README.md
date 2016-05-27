@@ -16,8 +16,9 @@ sendgrid.sendMail({
     "text": 'My first email !!!.'
     }, function(err, json) {
     if (err) { return console.error(err); }
-     console.log(json);
+    console.log(json);
     });
+```
 User has to provide the Account SSID and the auth Token which is needed to connect with 
 the send grid. 
 
