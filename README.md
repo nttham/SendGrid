@@ -2,9 +2,9 @@
 This module is used to send mails using sendgrid api 
 
 ## Main Function
-sendMail()
-User has to provide the Account SSID and the auth Token which is needed to connect with 
-the send grid. 
+    sendMail()
+    User has to provide the Account SSID and the auth Token which is needed to connect with 
+    the send grid. 
 
 Applications can enable the hooks in the developer application by downloading the source code template from here; 
 inject the code in the application to call the send grid in an orderly fashion. It can be made as a prehook or posthook 
