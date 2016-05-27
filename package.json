@@ -4,7 +4,7 @@
     "description": "This will generate and validate OTP",
     "main": "otpserver.js",
     "scripts": {
-        "test": "echo \\\"Error: no test specified\\\" && exit 1",
+        "test": "node_modules/.bin/mocha -w",
         "start": "node otpserver.js"
     },
     "author": "Neethu",
@@ -12,7 +12,10 @@
     "dependencies": {
         "sendgrid": "~3.8.8",
         "express": "*",
-        "bodyParser": "*"
+        "body-parser": "*",
+        "mocha": ">= 0.9.0",
+        "chai": ">= 0.1.6",
+        "should":"*"
     }
 
 }
