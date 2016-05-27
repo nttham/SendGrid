@@ -15,11 +15,11 @@ sendgrid.sendMail({
     "subject": Hello World'
     "text": 'My first email !!!.'
     }, function(err, json) {
-  if (err) { return console.error(err); }
-  console.log(json);
-});
-    User has to provide the Account SSID and the auth Token which is needed to connect with 
-    the send grid. 
+    if (err) { return console.error(err); }
+     console.log(json);
+    });
+User has to provide the Account SSID and the auth Token which is needed to connect with 
+the send grid. 
 
 Applications can enable the hooks in the developer application by downloading the source code template from here; 
 inject the code in the application to call the send grid in an orderly fashion. It can be made as a prehook or posthook 
