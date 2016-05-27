@@ -19,7 +19,7 @@ sendgrid.sendMail({
     console.log(json);
     });
 ```
-User has to provide the Account SSID and the auth Token which is needed to connect with 
+User has to provide the AccountSID and the auth Token which is needed to connect with 
 the send grid. 
 
 Applications can enable the hooks in the developer application by downloading the source code template from here; 
