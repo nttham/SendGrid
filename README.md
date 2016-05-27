@@ -12,8 +12,8 @@ sendgrid.sendMail({
     "authToken":"BPRV4rL9N7jM9272",
     "toRecipient": 'example@example.com',
     "fromMail": 'other@example.com',
-    "subject": Hello World'
-    "text": 'My first email !!!.'
+    "subject": "Hello World"
+    "text": "My first email ."
     }, function(err, json) {
     if (err) { return console.error(err); }
     console.log(json);
