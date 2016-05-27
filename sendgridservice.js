@@ -13,8 +13,8 @@ Sendmail.prototype.sendMail = function (mailObj, callback) {
 
     var sendgrid = require('sendgrid')(mailObj.accountSID, mailObj.authToken);
     var message = {
-        "toRecipient": mailObj.toRecipient,
-        "fromMail": mailObj.fromMail,
+        "to": mailObj.toRecipient,
+        "from": mailObj.fromMail,
         "subject": mailObj.subject,
         "text": mailObj.text
     };
